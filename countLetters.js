@@ -11,12 +11,12 @@ const countLetters = function(string) {
   function removeDuplicates(array) {
     return array.filter((a, b) => array.indexOf(a) === b);
   }
-  let arrOfLetterFiltered = removeDuplicates(arrOfLetters);
+  let arrOfLettersFiltered = removeDuplicates(arrOfLetters);
   let obj = {};
-  for (let i = 0; i < arrOfLetterFiltered.length; i++) {
+  for (let i = 0; i < arrOfLettersFiltered.length; i++) {
     let count = 0;
     for (let letter of string) {
-      if (letter === arrOfLetterFiltered[i]) {
+      if (letter === arrOfLettersFiltered[i]) {
         count += 1;
         obj[letter] = count;
       }
@@ -24,7 +24,7 @@ const countLetters = function(string) {
   }
   delete obj[" "];
   return obj;
-}
+};
 
 
 console.log(countLetters("LHL"));
