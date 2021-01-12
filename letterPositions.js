@@ -18,6 +18,7 @@ const letterPositions = function(string) {
   return results;
 };
 
+module.exports = letterPositions;
 
 //TEST CODE:
 // console.log(letterPositions("LHL"));

@@ -54,6 +54,8 @@ const without = function (arr1, arr2) {
   return newArr;
 };
 
+module.exports = without;
+
 //TEST CODE:
 
 // console.log(without([1, 2, 3], [1])); // => [2, 3]
