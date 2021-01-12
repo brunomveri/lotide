@@ -18,7 +18,9 @@ const letterPositions = function(string) {
   return results;
 };
 
-console.log(letterPositions("LHL"));
-console.log(letterPositions("lighthouse in the house"));
+
+//TEST CODE:
+// console.log(letterPositions("LHL"));
+// console.log(letterPositions("lighthouse in the house"));
 
 
