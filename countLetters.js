@@ -1,11 +1,3 @@
-// const assertEqual = function(actual, expected) {
-//   if (actual === expected) {
-//     console.log(`✅ Assertion Passed: ${actual} === ${expected}`);
-//   } else {
-//     console.log(`🛑 Assertion Failed: ${actual} !== ${expected}`);
-//   }
-// };
-
 const countLetters = function(string) {
   let arrOfLetters = string.split('');
   function removeDuplicates(array) {
@@ -27,7 +19,3 @@ const countLetters = function(string) {
 };
 
 module.exports = countLetters;
-
-// //Test code:
-// console.log(countLetters("LHL"));
-// console.log(countLetters("lighthouse in the house"));
